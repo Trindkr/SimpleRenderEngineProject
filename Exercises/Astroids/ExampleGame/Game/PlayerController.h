@@ -5,10 +5,10 @@
 
 namespace ExampleGame {
 	class PlayerController : public MyEngine::Component {
-		const float RotSpeed = 50;
+		const float RotSpeed = 5;
 		const float MovSpeed = 5;
 		const float MovAmount = 20;
-		const glm::vec2 MovDirection = glm::vec2(1, 0);
+		glm::vec2 MovDirection = glm::vec2(0, 1);
 
 		bool forward
 			, rotateLeft
