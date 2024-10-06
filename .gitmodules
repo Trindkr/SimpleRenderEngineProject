@@ -2,3 +2,6 @@
 	path = submodules/SimpleRenderEngine
 	url = https://github.com/Chris-Carvelli/SimpleRenderEngine.git
 	branch = master
+[submodule "Exercises"]
+	path = Exercises
+	url = https://github.com/Trindkr/Game-Programming-Exercises-Game-Engine.git
